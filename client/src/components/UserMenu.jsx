@@ -42,7 +42,7 @@ function UserMenu() {
         </button>
       </Link>
       <Link to="/register">
-        <button className="bg-light text-secondary w-[80px]">SignUp</button>
+        <button className="bg-light p-2 rounded-md text-secondary w-[80px]">SignUp</button>
       </Link>
     </div>
   );

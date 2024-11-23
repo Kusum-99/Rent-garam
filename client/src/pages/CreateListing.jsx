@@ -136,7 +136,7 @@ function CreateListing() {
             required
             className="w-full"
             label="Number of Bedrooms"
-            placeholder="Enter nomber of bedrooms"
+            placeholder="Enter number of bedrooms"
             icon={<FaBed color="black" />}
             onChange={(val) => setForm({ ...form, bedroom: val })}
             name="bedroom"
@@ -145,7 +145,7 @@ function CreateListing() {
             required
             className="w-full"
             label="Number of Bathrooms"
-            placeholder="Enter nomber of bathrooms"
+            placeholder="Enter number of bathrooms"
             icon={<FaBath color="black" />}
             onChange={(val) => setForm({ ...form, washroom: val })}
             name="washroom"
