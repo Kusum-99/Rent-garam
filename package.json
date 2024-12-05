@@ -10,16 +10,8 @@
     "db:reset": "node src/db/reset.js",
     "db:seed": "node src/db/seed.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dovakiin0/rent-garam.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Dovakiin0/rent-garam/issues"
-  },
-  "homepage": "https://github.com/Dovakiin0/rent-garam#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
