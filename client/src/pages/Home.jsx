@@ -190,39 +190,24 @@ function Home() {
               <img src="images/s-1.png" alt="" />
               <h3 className="text-2xl">buying home</h3>
               <p className="text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                distinctio ipsa ab cum error quas fuga ad? Perspiciatis, autem
-                officiis?
+              Find your dream home with our expert guidance. We help you navigate the buying process, ensuring you get the best deal in a location that suits your lifestyle.
               </p>
-              <button className="bg-light text-primary capitalize rounded-md h-11 w-1/2">
-                learn more
-              </button>
             </div>
 
             <div className="border-gray-200 border-2 shadow-lg bg-white p-10 capitalize flex flex-col items-center justify-center space-y-5">
               <img src="images/s-2.png" alt="" />
               <h3 className="text-2xl">renting home</h3>
               <p className="text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                distinctio ipsa ab cum error quas fuga ad? Perspiciatis, autem
-                officiis?
+              Whether you're looking for a temporary stay or a long-term rental, we offer a wide range of properties to match your needs and budget.
               </p>
-              <button className="bg-light text-primary capitalize rounded-md h-11 w-1/2">
-                learn more
-              </button>
             </div>
 
             <div className="border-gray-200 border-2 shadow-lg bg-white p-10 capitalize flex flex-col items-center justify-center space-y-5">
               <img src="images/s-3.png" alt="" />
               <h3 className="text-2xl">selling home</h3>
               <p className="text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                distinctio ipsa ab cum error quas fuga ad? Perspiciatis, autem
-                officiis?
+              Sell your property with confidence. Our team ensures a smooth and profitable sale by marketing your home to the right buyers and negotiating the best price.
               </p>
-              <button className="bg-light text-primary capitalize rounded-md h-11 w-1/2">
-                learn more
-              </button>
             </div>
           </div>
         </section>
@@ -299,61 +284,6 @@ function Home() {
               <h3 className="text-2xl">office address</h3>
               <p>Kathmandu, Nepal</p>
             </div>
-          </div>
-
-          <div className="w-[calc(100%-5rem)] lg:h-[30rem] border-gray-200 border-2 shadow-lg bg-white p-5 capitalize lg:flex justify-between lg:space-x-5">
-            <form action="" className="w-full space-y-5">
-              <div className="flex space-x-5">
-                <TextInput
-                  label="Name"
-                  type="text"
-                  placeholder="name"
-                  className="w-1/3"
-                  required
-                />
-                <TextInput
-                  label="Phone Number"
-                  type="number"
-                  required
-                  placeholder="number"
-                  className="w-1/3"
-                />
-              </div>
-              <div className="flex space-x-5">
-                <TextInput
-                  label="Email address"
-                  type="email"
-                  required
-                  placeholder="email"
-                  className="w-1/3"
-                />
-                <TextInput
-                  label="Subject"
-                  required
-                  type="text"
-                  placeholder="subject"
-                  className="w-1/3"
-                />
-              </div>
-              <Textarea
-                label="Message"
-                required
-                placeholder="Message"
-                minRows={7}
-              ></Textarea>
-              <input
-                type="submit"
-                value="Send Message"
-                className="bg-primary text-light active:bg-secondary p-3 rounded-md cursor-pointer"
-              />
-            </form>
-            <iframe
-              className="lg:w-1/2"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56516.31625949471!2d85.29111337049024!3d27.70895594444141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu%2044600!5e0!3m2!1sen!2snp!4v1661014872136!5m2!1sen!2snp"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
           </div>
         </section>
       </div>

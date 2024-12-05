@@ -29,6 +29,7 @@ function AllListing() {
       }
     } catch (error) {
       setLoading(false);
+      setListing([])
       console.log(error);
     }
   };

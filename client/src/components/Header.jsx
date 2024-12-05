@@ -16,7 +16,7 @@ function Header() {
         setOpen={setSidebarOpen}
         closeBurger={setBurgerOpen}
       />
-      <header className="flex justify-around h-20 items-center shadow-lg sticky top-0 z-50 bg-white">
+      <header className="flex justify-around h-20 items-center shadow-lg sticky top-0 z-[9999] bg-white">
         <a href="/" className="text-2xl">
           <span className="text-primary">Rent</span>Garam
         </a>
@@ -30,9 +30,6 @@ function Header() {
           </a>
           <a href="/#featured" className="hover:text-primary">
             Featured
-          </a>
-          <a href="/#contact" className="hover:text-primary">
-            Contact
           </a>
         </nav>
         <nav className="block md:hidden">

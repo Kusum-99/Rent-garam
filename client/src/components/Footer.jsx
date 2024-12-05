@@ -7,46 +7,24 @@ function Footer() {
         <div className="capitalize lg:flex space-y-5 lg:space-y-0 justify-around">
           <div className="flex flex-col space-y-3">
             <h3 className="text-3xl">quick links</h3>
-            <a href="#" className="text-gray-500">
+            <a href="#home" className="text-gray-500">
               home
             </a>
-            <a href="#" className="text-gray-500">
+            <a href="#services" className="text-gray-500">
               services
             </a>
-            <a href="#" className="text-gray-500">
+            <a href="#featured" className="text-gray-500">
               featured
-            </a>
-            <a href="#" className="text-gray-500">
-              contact
             </a>
           </div>
 
           <div className="flex flex-col space-y-3">
             <h3 className="text-3xl">extra links</h3>
-            <a href="#" className="text-gray-500">
-              my account
+            <a href="/dashboard/all-listing" className="text-gray-500">
+              My Listings
             </a>
-            <a href="#" className="text-gray-500">
-              my favorite
-            </a>
-            <a href="#" className="text-gray-500">
-              my list
-            </a>
-          </div>
-
-          <div className="flex flex-col space-y-3">
-            <h3 className="text-3xl">follow us</h3>
-            <a href="#" className="text-gray-500">
-              facebook
-            </a>
-            <a href="#" className="text-gray-500">
-              twitter
-            </a>
-            <a href="#" className="text-gray-500">
-              instagram
-            </a>
-            <a href="#" className="text-gray-500">
-              linkedin
+            <a href="/dashboard/favourite-listing" className="text-gray-500">
+              My Favorites
             </a>
           </div>
         </div>

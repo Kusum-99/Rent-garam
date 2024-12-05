@@ -23,7 +23,7 @@ pool
       )
       .then(() => {
         pool.query(
-          "CREATE TABLE IF NOT EXISTS favourite (id SERIAL PRIMARY KEY, user_id INTEGER, estate_id INTEGER, createdAt TIMESTAMP DEFAULT NOW(), FOREIGN KEY (user_id) REFERENCES users(id), FOREIGN KEY (estate_id) REFERENCES estate(id))"
+          "CREATE TABLE IF NOT EXISTS favourite (id SERIAL PRIMARY KEY, user_id INTEGER, estate_id INTEGER, createdAt TIMESTAMP DEFAULT NOW(), FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE, FOREIGN KEY (estate_id) REFERENCES estate(id) ON DELETE CASCADE)"
         );
       })
       .catch((err) => console.log(err));

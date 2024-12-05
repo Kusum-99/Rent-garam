@@ -5,6 +5,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { useAuth } from "../context/AuthContext";
+import { SuccessNotification } from "../components/Notifications";
 
 function Register() {
   const [form, setForm] = useState({
@@ -33,7 +34,13 @@ function Register() {
       );
       if (status === 201) {
         localStorage.setItem("token", JSON.stringify(data.token));
-        window.location.reload();
+        SuccessNotification({
+          message: "You will be redirected shortly",
+          title: "Register Success"
+        })
+        setInterval(()=>{
+          window.location.reload()
+        },2000)
       }
     } catch (err) {
       console.log(err);

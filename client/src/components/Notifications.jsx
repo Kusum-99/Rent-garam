@@ -8,7 +8,7 @@ export const SuccessNotification = ({ message, title = "Success" }) => {
     title,
     message,
     color: "teal",
-    icon: <FaCheckCircle />,
+    icon: <FaCheckCircle />,   
   });
 };
 
